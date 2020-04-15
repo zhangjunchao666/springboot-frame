@@ -1,0 +1,31 @@
+{
+  "name" : "Equip",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "equipName",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "managerUser",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.zhangjunchao.springbootwxgzh.equip",
+  "savePath" : "./springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip",
+  "saveModelName" : "springboot-wxgzh"
+}

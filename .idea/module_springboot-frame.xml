@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_springboot-frame" default="compile.module.springboot-frame">
+  <dirname property="module.springboot-frame.basedir" file="${ant.file.module_springboot-frame}"/>
+  
+  <property name="module.jdk.home.springboot-frame" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.springboot-frame" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.springboot-frame" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.springboot-frame" value="-encoding UTF-8 -source 12 -target 12 ${compiler.args}"/>
+  
+  <property name="springboot-frame.output.dir" value="未定义"/>
+  <property name="springboot-frame.testoutput.dir" value="未定义"/>
+  
+  <path id="springboot-frame.module.bootclasspath">
+    <!-- 路径被列入编译 bootclasspath -->
+  </path>
+  
+  <path id="springboot-frame.module.production.classpath"/>
+  
+  <path id="springboot-frame.runtime.production.module.classpath"/>
+  
+  <path id="springboot-frame.module.classpath"/>
+  
+  <path id="springboot-frame.runtime.module.classpath"/>
+  
+  
+  <patternset id="excluded.from.module.springboot-frame">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.springboot-frame">
+    <patternset refid="excluded.from.module.springboot-frame"/>
+  </patternset>
+  
+  
+  <target name="compile.module.springboot-frame" depends="compile.module.springboot-frame.production,compile.module.springboot-frame.tests" description="编辑 模块 springboot-frame"/>
+  
+  <target name="compile.module.springboot-frame.production" depends="register.custom.compilers" description="编译 模块 springboot-frame; 生产类"/>
+  
+  <target name="compile.module.springboot-frame.tests" depends="register.custom.compilers,compile.module.springboot-frame.production" description="编译 模块 springboot-frame; 测试类" unless="skip.tests"/>
+  
+  <target name="clean.module.springboot-frame" description="清理模块">
+    <delete dir="${springboot-frame.output.dir}"/>
+    <delete dir="${springboot-frame.testoutput.dir}"/>
+  </target>
+</project>

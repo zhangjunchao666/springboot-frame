@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhangjunchao.springbootwxgzh.equip.dao.EquipDao">
+
+    <resultMap type="com.zhangjunchao.springbootwxgzh.equip.entity.Equip" id="EquipMap">
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="equipName" column="equip_name" jdbcType="VARCHAR"/>
+        <result property="managerUser" column="manager_user" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="EquipMap">
+        select
+          id, equip_name, manager_user
+        from mytest.equip
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="EquipMap">
+        select
+          id, equip_name, manager_user
+        from mytest.equip
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="EquipMap">
+        select
+          id, equip_name, manager_user
+        from mytest.equip
+        <where>
+            <if test="id != null and id != ''">
+                and id = #{id}
+            </if>
+            <if test="equipName != null and equipName != ''">
+                and equip_name = #{equipName}
+            </if>
+            <if test="managerUser != null and managerUser != ''">
+                and manager_user = #{managerUser}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert">
+        insert into mytest.equip(id,equip_name, manager_user)
+        values (#{id},#{equipName}, #{managerUser})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update mytest.equip
+        <set>
+            <if test="equipName != null and equipName != ''">
+                equip_name = #{equipName},
+            </if>
+            <if test="managerUser != null and managerUser != ''">
+                manager_user = #{managerUser},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from mytest.equip where id = #{id}
+    </delete>
+
+</mapper>

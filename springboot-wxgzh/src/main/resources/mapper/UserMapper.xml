@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--namespace :接口的全路径com.zhangjunchao.edu.usermanager.mapping.WeiXinGroupMapper -->
+<mapper namespace="com.zhangjunchao.springbootwxgzh.mapper.UserMapper">
+    <!--返回的结果集映射 id:resultMap唯一标示 type：返回类型
+    autoMapping：true 表示自动映射
+    -->
+    <resultMap id="beseResultMap" type="com.zhangjunchao.springbootwxgzh.bean.User" autoMapping="true">
+        <!--id:表示主键
+            column:表示 通过sql 语句查询出来的列名
+            property:表示实体类的属性名：
+            result: 表示普通列名
+        -->
+        <!--suppress MybatisMapperXml -->
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="getUserById" resultType="com.zhangjunchao.springbootwxgzh.bean.User">
+        select * from user where id = #{id} limit 1
+    </select>
+
+
+
+
+
+
+
+</mapper>

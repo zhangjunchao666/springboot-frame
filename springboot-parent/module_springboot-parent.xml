@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_springboot-parent" default="compile.module.springboot-parent">
+  <dirname property="module.springboot-parent.basedir" file="${ant.file.module_springboot-parent}"/>
+  
+  <property name="module.jdk.home.springboot-parent" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.springboot-parent" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.springboot-parent" value="jdk.classpath.1.8"/>
+  
+  <property name="compiler.args.springboot-parent" value="-encoding UTF-8 -source 8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="springboot-parent.output.dir" value="${module.springboot-parent.basedir}/target/classes"/>
+  <property name="springboot-parent.testoutput.dir" value="${module.springboot-parent.basedir}/target/test-classes"/>
+  
+  <path id="springboot-parent.module.bootclasspath">
+    <!-- 路径被列入编译 bootclasspath -->
+  </path>
+  
+  <path id="springboot-parent.module.production.classpath">
+    <path refid="${module.jdk.classpath.springboot-parent}"/>
+  </path>
+  
+  <path id="springboot-parent.runtime.production.module.classpath">
+    <pathelement location="${springboot-parent.output.dir}"/>
+  </path>
+  
+  <path id="springboot-parent.module.classpath">
+    <path refid="${module.jdk.classpath.springboot-parent}"/>
+    <pathelement location="${springboot-parent.output.dir}"/>
+  </path>
+  
+  <path id="springboot-parent.runtime.module.classpath">
+    <pathelement location="${springboot-parent.testoutput.dir}"/>
+    <pathelement location="${springboot-parent.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.springboot-parent">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.springboot-parent">
+    <patternset refid="excluded.from.module.springboot-parent"/>
+  </patternset>
+  
+  <path id="springboot-parent.module.sourcepath">
+    <dirset dir="${module.springboot-parent.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="springboot-parent.module.test.sourcepath">
+    <dirset dir="${module.springboot-parent.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.springboot-parent" depends="compile.module.springboot-parent.production,compile.module.springboot-parent.tests" description="编辑 模块 springboot-parent"/>
+  
+  <target name="compile.module.springboot-parent.production" depends="register.custom.compilers" description="编译 模块 springboot-parent; 生产类">
+    <mkdir dir="${springboot-parent.output.dir}"/>
+    <javac2 destdir="${springboot-parent.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.springboot-parent}/javac">
+      <compilerarg line="${compiler.args.springboot-parent}"/>
+      <bootclasspath refid="springboot-parent.module.bootclasspath"/>
+      <classpath refid="springboot-parent.module.production.classpath"/>
+      <src refid="springboot-parent.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.springboot-parent"/>
+    </javac2>
+    
+    <copy todir="${springboot-parent.output.dir}">
+      <fileset dir="${module.springboot-parent.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.springboot-parent.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.springboot-parent.tests" depends="register.custom.compilers,compile.module.springboot-parent.production" description="编译 模块 springboot-parent; 测试类" unless="skip.tests">
+    <mkdir dir="${springboot-parent.testoutput.dir}"/>
+    <javac2 destdir="${springboot-parent.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.springboot-parent}/javac">
+      <compilerarg line="${compiler.args.springboot-parent}"/>
+      <bootclasspath refid="springboot-parent.module.bootclasspath"/>
+      <classpath refid="springboot-parent.module.classpath"/>
+      <src refid="springboot-parent.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.springboot-parent"/>
+    </javac2>
+    
+    <copy todir="${springboot-parent.testoutput.dir}">
+      <fileset dir="${module.springboot-parent.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.springboot-parent" description="清理模块">
+    <delete dir="${springboot-parent.output.dir}"/>
+    <delete dir="${springboot-parent.testoutput.dir}"/>
+  </target>
+</project>

@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springboot-wxgzh:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec571d71-ee44-4132-801b-ca2881dc50e2" name="默认" comment="备份代码2020-4-15 17:49:46">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/springboot-frame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/AccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/ModelMsgData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/TemplateMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/WeiXinContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/WeiXinMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/WeiXinMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/MediaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/SecurityKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/TemplateMsgEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/WeiXinMsgType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/WeiXinUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/WeiXinUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/dto/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/controller/EquipController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/dao/EquipDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/entity/Equip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/service/EquipService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/service/impl/EquipServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/springbootparent/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-parent/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-wxgzh/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - mytest@118.190.100.101" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - mytest@118.190.100.101" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - mytest@118.190.100.101" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mytest: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - mytest@118.190.100.101" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mytest: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="equip: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/SpringbootWxgzhApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/mapper/RoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jest</find>
+      <find>hutool</find>
+      <find>websocket</find>
+      <find>spring</find>
+      <find>spring-session</find>
+      <find>fastjson</find>
+      <find>mybatis</find>
+      <find>spring-boot-starter-jdbc</find>
+      <find>mysql.version</find>
+      <find>spring-boot-starter-websocket</find>
+      <find>pring-session-core</find>
+      <find>commons-io</find>
+      <find>javax</find>
+      <find>spring-boot-starter-thymeleaf</find>
+      <find>nekohtml</find>
+      <find>xml-apis</find>
+      <find>batik-ext</find>
+      <find>commons-beanutils</find>
+      <find>lang</find>
+      <find>commons-lang3</find>
+      <find>commons-codec</find>
+      <find>spring-boot-starter-dubbo</find>
+      <find>Hikari</find>
+      <find>Hutool</find>
+      <find>HikariCP</find>
+      <find>use</find>
+      <find>hikare</find>
+      <find>tk</find>
+      <find>String userId</find>
+      <find>is not</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springbootparent/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/MediaUtil.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/common/WeiXinUrl.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/usergroup/service/impl/WeiXinGroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/usergroup/service/WeiXinGroupService.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/controller/WeiXinUserManage.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/user.java" />
+        <option value="$PROJECT_DIR$/springboot-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/weixinmsg/MsgUtil.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/resources/config/db.setting" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/Role.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/User.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/dto/UserRole.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/controller/WeiXinController.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/target/classes/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/resources/mapper/UserMapper.fxml" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/controller/TestHutool.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/controller/TestMybatis.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/controller/EquipController.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/SpringbootWxgzhApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/service/EquipService.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/service/impl/EquipServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/resources/mapper/EquipDao.xml" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/dao/EquipDao.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/entity/Equip.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/test/java/com/zhangjunchao/springbootwxgzh/SpringbootWxgzhApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/MyBatis04_mbg/bin/com/atguigu/mybatis/test/TestMyBatis.java" />
+        <option value="$PROJECT_DIR$/MyBatis04_mbg/mbg.xml" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/test/java/com/zhangjunchao/springbootwxgzh/TestMyBatis.java" />
+        <option value="$PROJECT_DIR$/springboot-wxgzh/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\DevelopSoltwareInstall\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-182" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="添加" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangjunchao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangjunchao" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootwxgzh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangjunchao" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootwxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangjunchao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-frame" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-wxgzh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangjunchao" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootwxgzh" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="springboot-frame" />
+    <property name="MyBatisLogPluginindexNum" value="15" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_MBG/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2751817" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\DevelopSoltwareInstall\idea2019.1\springboot-frame\springboot-wxgzh\src\main\resources\mapper" />
+      <recent name="E:\DevelopSoltwareInstall\idea2019.1\springboot-frame\springboot-wxgzh" />
+      <recent name="E:\DevelopSoltwareInstall\idea2019.1\springboot-frame\springboot-wxgzh\src\main\resources\mapping" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhangjunchao.springbootwxgzh.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DevelopSoltwareInstall\idea2019.1\springboot-frame\mybatis_MBG\src" />
+      <recent name="E:\DevelopSoltwareInstall\idea2019.1\springboot-frame\springboot-wxgzh" />
+      <recent name="E:\DevelopSoltwareInstall\idea2019.1\springboot-frame\springboot-wxgzh\src\test\java\com\zhangjunchao\springbootwxgzh" />
+      <recent name="E:\DevelopSoltwareInstall\idea2019.1\springboot-frame\MyBatis04_mbg\bin\com\atguigu\mybatis\test" />
+      <recent name="E:\DevelopSoltwareInstall\idea2019.1\springboot-frame\springboot-wxgzh\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootWxgzhApplication (1)">
+    <configuration name="SpringbootWxgzhApplicationTests.equipDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-wxgzh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangjunchao.springbootwxgzh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhangjunchao.springbootwxgzh" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangjunchao.springbootwxgzh.SpringbootWxgzhApplicationTests" />
+      <option name="METHOD_NAME" value="equipDeleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWxgzhApplicationTests.equipInserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-wxgzh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangjunchao.springbootwxgzh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhangjunchao.springbootwxgzh" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangjunchao.springbootwxgzh.SpringbootWxgzhApplicationTests" />
+      <option name="METHOD_NAME" value="equipInserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-wxgzh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangjunchao.springbootwxgzh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhangjunchao.springbootwxgzh" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangjunchao.springbootwxgzh.SpringbootWxgzhApplicationTests" />
+      <option name="METHOD_NAME" value="equipSelectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWxgzhApplicationTests.equipUpdateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-wxgzh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangjunchao.springbootwxgzh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhangjunchao.springbootwxgzh" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangjunchao.springbootwxgzh.SpringbootWxgzhApplicationTests" />
+      <option name="METHOD_NAME" value="equipUpdateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyBatis.testMbg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-wxgzh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangjunchao.springbootwxgzh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhangjunchao.springbootwxgzh" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangjunchao.springbootwxgzh.TestMyBatis" />
+      <option name="METHOD_NAME" value="testMbg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWxgzhApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-wxgzh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhangjunchao.springbootwxgzh.SpringbootWxgzhApplication" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWxgzhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-wxgzh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhangjunchao.springboot.wxgzh.SpringbootWxgzhApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringbootWxgzhApplicationTests.equipUpdateTest" />
+      <item itemvalue="JUnit.SpringbootWxgzhApplicationTests.equipDeleteTest" />
+      <item itemvalue="JUnit.SpringbootWxgzhApplicationTests.equipSelectTest" />
+      <item itemvalue="JUnit.SpringbootWxgzhApplicationTests.equipInserTest" />
+      <item itemvalue="JUnit.TestMyBatis.testMbg" />
+      <item itemvalue="Spring Boot.SpringbootWxgzhApplication" />
+      <item itemvalue="Spring Boot.SpringbootWxgzhApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMyBatis.testMbg" />
+        <item itemvalue="JUnit.SpringbootWxgzhApplicationTests.equipSelectTest" />
+        <item itemvalue="JUnit.SpringbootWxgzhApplicationTests.equipInserTest" />
+        <item itemvalue="JUnit.SpringbootWxgzhApplicationTests.equipUpdateTest" />
+        <item itemvalue="JUnit.SpringbootWxgzhApplicationTests.equipDeleteTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec571d71-ee44-4132-801b-ca2881dc50e2" name="默认" comment="" />
+      <created>1586394732845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586394732845</updated>
+      <workItem from="1586394734538" duration="54833000" />
+      <workItem from="1586744360570" duration="11697000" />
+      <workItem from="1586761159296" duration="10383000" />
+      <workItem from="1586771820547" duration="14919000" />
+      <workItem from="1586913326511" duration="16966000" />
+      <workItem from="1586942753246" duration="1429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SpringbootWxgzhApplicationTests_equipSelectTest - 2020.04.15 at 10h 16m 36s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootWxgzhApplicationTests_equipSelectTest - 2020.04.15 at 10h 17m 07s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootWxgzhApplicationTests_equipSelectTest - 2020.04.15 at 10h 17m 26s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootWxgzhApplicationTests_equipSelectTest - 2020.04.15 at 10h 18m 17s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootWxgzhApplicationTests_equipSelectTest - 2020.04.15 at 10h 19m 24s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootWxgzhApplicationTests_equipSelectTest - 2020.04.15 at 10h 19m 57s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootWxgzhApplicationTests_equipSelectTest - 2020.04.15 at 10h 22m 05s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootWxgzhApplicationTests_equipInserTest - 2020.04.15 at 10h 29m 47s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipInserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootWxgzhApplicationTests_equipSelectTest - 2020.04.15 at 15h 15m 16s.xml">
+      <configuration name="SpringbootWxgzhApplicationTests.equipSelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMyBatis_testMbg - 2020.04.15 at 17h 16m 39s.xml">
+      <configuration name="TestMyBatis.testMbg" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="110227000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-182" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="设计器" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="JRebel" order="6" sideWeight="0.5026247" side_tool="true" weight="0.23827292" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49737534" visible="true" weight="0.22921109" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Problems" order="4" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="JRebel Executor" order="8" />
+      <window_info anchor="bottom" id="JRebel Console" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2462039" />
+      <window_info anchor="bottom" id="调试" order="11" weight="0.5097614" />
+      <window_info anchor="bottom" id="MyBatis Log" order="12" weight="0.4804772" />
+      <window_info anchor="bottom" id="Message" order="13" />
+      <window_info anchor="bottom" id="Find" order="14" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="15" weight="0.20498915" />
+      <window_info anchor="bottom" id="Debug" order="16" weight="0.49457702" />
+      <window_info anchor="bottom" id="Cvs" order="17" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="18" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="19" weight="0.329718" />
+      <window_info anchor="bottom" id="Tail" order="20" />
+      <window_info anchor="bottom" id="Database Console" order="21" weight="0.329718" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="调色板" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.24733475" />
+      <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="RestServices" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.37313432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="设计器" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="JRebel" order="6" sideWeight="0.5010846" side_tool="true" weight="0.22121535" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.4989154" visible="true" weight="0.23294243" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="JRebel Executor" order="8" />
+      <window_info anchor="bottom" id="JRebel Console" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="调试" order="11" weight="0.36659437" />
+      <window_info anchor="bottom" id="MyBatis Log" order="12" />
+      <window_info anchor="bottom" id="Message" order="13" />
+      <window_info anchor="bottom" id="Find" order="14" />
+      <window_info active="true" anchor="bottom" id="Run" order="15" visible="true" weight="0.5986985" />
+      <window_info anchor="bottom" id="Debug" order="16" weight="0.1735358" />
+      <window_info anchor="bottom" id="Cvs" order="17" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="18" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="19" weight="0.329718" />
+      <window_info anchor="bottom" id="Tail" order="20" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="调色板" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="RestServices" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.37313432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://f99a96cd-25f7-484e-82eb-1e27f29c3447/schema/mytest/table/user" />
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/resources/config/db.setting">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/weixinmsg/MsgUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="550" selection-start-line="550" selection-end-line="550" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.5.RELEASE/spring-tx-5.2.5.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/controller/TestHutool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="174" column="44" lean-forward="true" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="388" column="44" selection-start-line="388" selection-start-column="44" selection-end-line="388" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-sources.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/select/SelectAllMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5-sources.jar!/tk/mybatis/mapper/common/base/select/SelectAllMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5.jar!/tk/mybatis/mapper/entity/Example.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="198" column="23" selection-start-line="198" selection-start-column="23" selection-end-line="198" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/EquipDefault.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="82" column="37" lean-forward="true" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/controller/WeiXinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/controller/EquipController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/usergroup/service/WeiXinGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/usergroup/service/impl/WeiXinGroupServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/controller/TestMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#2408#2409#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
+            <element signature="e#2781#2782#0" expanded="true" />
+            <element signature="e#2837#2838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/controller/WeiXinUserManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/service/EquipService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/service/impl/EquipServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/resources/mapper/EquipDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/entity/Equip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/test/java/com/zhangjunchao/springbootwxgzh/SpringbootWxgzhApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/equip/dao/EquipDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5-sources.jar!/tk/mybatis/mapper/entity/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="402" column="31" selection-start-line="402" selection-start-column="25" selection-end-line="402" selection-end-column="31" />
+          <folding>
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2328#2329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBatis04_mbg/bin/db.properties" />
+    <entry file="file://$PROJECT_DIR$/MyBatis04_mbg/bin/com/atguigu/mybatis/mapper/EmployeeMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/MyBatis04_mbg/bin/com/atguigu/mybatis/mapper/DepartmentMapper.class" />
+    <entry file="file://$PROJECT_DIR$/MyBatis04_mbg/bin/com/atguigu/mybatis/test/TestMyBatis.class" />
+    <entry file="file://$PROJECT_DIR$/MyBatis04_mbg/bin/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/MyBatis04_mbg/bin/com/atguigu/mybatis/test/TestMyBatis.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBatis04_mbg/mbg.xml" />
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/mbg.xml" />
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/test/java/com/zhangjunchao/springbootwxgzh/TestMyBatis.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis_MBG/src/com/zhangjunchao/mybatis/TestMyBatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="80" column="27" lean-forward="true" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/SpringbootWxgzhApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-wxgzh/src/main/java/com/zhangjunchao/springbootwxgzh/bean/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>springboot-wxgzh:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2751817" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JRebel</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3416407" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot-wxgzh</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2751817" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3416407" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

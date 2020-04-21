@@ -28,5 +28,15 @@ url = jdbc:mysql://118.190.100.101:3306/mytest?characterEncoding=UTF-8&useUnicod
 user = root
 pass = 123456
 
+# aliyun
+[jdyw2]
+url = jdbc:mysql://118.190.100.101:3306/jdyw2?characterEncoding=UTF-8&useUnicode=true
+user = root
+pass = 123456
 
+# ms
+[jxgs]
+url = jdbc:mysql://192.168.11.132:3306/jdyw2_jx?characterEncoding=UTF-8&useUnicode=true&serverTimezone=UTC
+user = root
+pass = root
 

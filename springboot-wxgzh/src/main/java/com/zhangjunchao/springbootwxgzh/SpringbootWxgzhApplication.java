@@ -13,7 +13,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  * @author zhangjunchao
  * @date 2020-4-9 13:17:40
  */
-@MapperScan({"com.zhangjunchao.**.mapper","com.zhangjunchao.**.dao"})
+@MapperScan({"com.zhangjunchao.**.mapper"})
 @EnableTransactionManagement
 @EnableScheduling
 @SpringBootApplication

@@ -11,8 +11,11 @@ import cn.hutool.db.sql.Condition;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONUtil;
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
+import com.zhangjunchao.springbootwxgzh.bean.LineNode;
 import com.zhangjunchao.springbootwxgzh.bean.Role;
 import com.zhangjunchao.springbootwxgzh.bean.User;
+import com.zhangjunchao.springbootwxgzh.dto.GplotRelation;
+import com.zhangjunchao.springbootwxgzh.dto.GplotShow;
 import com.zhangjunchao.springbootwxgzh.dto.UserRole;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -25,10 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -42,16 +42,15 @@ import java.util.stream.Collectors;
 public class TestHutool {
 
     private static Db db = Db.use();
+    private static Db jdyw2DB = Db.use("jdyw2");
+    private static Db jxgsDb = Db.use("jxgs");
 
 
     @ApiOperationSupport(author = "zhangjunchao")
     @ApiOperation("查询所有用户")
     @GetMapping("/getAllUser")
-    public List<User> getAllUser() throws SQLException {
-
-        // 查询所有用户，未分页
-        List<User> users = db.findAll(Entity.create("user"), User.class);
-
+    public Object getAllUser() throws SQLException {
+        List<Entity> users = db.findAll("user");
         System.out.println(users);
         return users;
     }
@@ -187,40 +186,50 @@ public class TestHutool {
     }
 
 
+    @ApiOperationSupport(author = "zhangjunchao")
+    @ApiOperation("拓扑图")
+    @GetMapping("/getGplot")
+    public Object getGplot() throws SQLException {
+
+        List<GplotShow> gplotShows = new ArrayList<>();
+        List<GplotRelation> gplotRelations = new ArrayList<>();
+        new ArrayList<>();
+
+        List<LineNode> lineNodes = jdyw2DB.findAll(Entity.create("bas_line_node"), LineNode.class);
+        for (LineNode lineNode : lineNodes) {
+            GplotShow gs = new GplotShow();
+            GplotRelation gr = new GplotRelation();
+
+            gs.setId(lineNode.getId());
+            gs.setName(lineNode.getName());
+
+            gr.setSource(lineNode.getSuperNode());
+            gr.setTarget(lineNode.getId());
+
+            gplotShows.add(gs);
+            gplotRelations.add(gr);
+        }
 
 
-
-
-    public static void main(String[] args) throws SQLException {
-        //List<User> users = db.findAll(Entity.create("user"), User.class);
-        //System.out.println(users);
-
-        //Role role = new Role();
-        //role.setId(IdUtil.fastSimpleUUID());
-        //role.setRole("老大");
-        //role.setUserId(IdUtil.fastSimpleUUID());
-        //
-        //db.insert(CollUtil.newArrayList(Entity.parse(role)));
-
-
-
-
-
-        System.out.println("randomUUID："+IdUtil.randomUUID());// fafbc476-a7a9-4d1a-92c5-304201de3050
-
-        System.out.println("simpleUUID："+IdUtil.simpleUUID());// 6e669e1a5e894864a8b2d11298bc9cba
-
-        System.out.println("fastUUID："+IdUtil.fastUUID()); // 3e76694d-be59-4696-8d36-9a142ec2b31a
-
-
-        // 使用此方法生成UUID
-        System.out.println("fastSimpleUUID："+IdUtil.fastSimpleUUID()); // cafd4906ad40441e951371a57d0c2217
-
-
-
-
-
+        HashMap<String, Object> map = new HashMap<>(16);
+        map.put("gplotShows", gplotShows);
+        map.put("gplotRelations", gplotRelations);
+        return map;
     }
+
+
+
+
+
+
+    //public static void main(String[] args) throws SQLException {
+    //    Db jxgsDb = Db.use("jxgs");
+    //
+    //    List<Entity> roles = jxgsDb.findAll("sys_role");
+    //    System.out.println(roles);
+    //
+    //
+    //}
 
 
 
